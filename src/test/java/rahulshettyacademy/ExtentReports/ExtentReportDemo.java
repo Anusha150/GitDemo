@@ -27,7 +27,9 @@ public class ExtentReportDemo {
 		extent.setSystemInfo("Tester", "Anusha");
 		
 		
-		
+	}
+	public void branchCheck() {
+		System.out.println("Branchiesss");
 	}
 	@Test
 	public void initalDemo() {
