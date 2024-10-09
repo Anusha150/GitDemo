@@ -15,7 +15,8 @@ public class ExtentReportDemo {
 	public void config() {
 		//ExtentReport, ExtentSparkReporter
 		String path = System.getProperty("user.dir")+"\\reports\\index.html";
-		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
+		System.out.println(path);
+		reporter = new ExtentSparkReporter(path);
 		
 		reporter.config().setReportName("Web Automation");
 		reporter.config().setDocumentTitle("Test Results");
