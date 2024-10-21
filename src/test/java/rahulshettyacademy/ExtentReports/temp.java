@@ -9,4 +9,13 @@ public class temp {
 	public void branchCheck() {
 		System.out.println("Branchiesss");
 	}
+	public void branchCheckk() {
+		System.out.println("Branchiesss");
+	}
+	public void branchCheckkk() {
+		System.out.println("Branchiesss");
+	}public void branchCheckkkkk() {
+		System.out.println("Branchiesss");
+	}
 }
+
